@@ -13,7 +13,7 @@ To start the development server and run the application, use the following comma
 
 
 ### `npm run dev`
-This will start the development server using Vite and compile the React.js application. Once the server is up and running, you can access the application in your browser at http://localhost:3000 (or a different port if specified).
+This will start the development server using Vite and compile the React.js application. Once the server is up and running, you can access the application in your browser at http://localhost:5173 (or a different port if specified).
 
 ## Running Unit Tests
 To run the unit tests using Vitest, execute the following command:
