@@ -4,13 +4,7 @@ import axios from 'axios';
 export const fetchUsers = createAsyncThunk("users/fetchUsers", async (data, { rejectWithValue }) => {
     try {
         const response = await axios.get('https://jsonplaceholder.typicode.com/users');
-        // If status is 404, data returns object indicating "No Users".
-        if (response.status === 404) {
-            return { noUsers: `${response.status} Page Not Found` }
-        } else {
-            return response.data
-        }
-
+        return response.data
     } catch (err) {
         return rejectWithValue(err.response.data)
     }

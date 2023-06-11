@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { MdDeleteForever } from "react-icons/md";
+import { BiError } from "react-icons/bi";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchUsers, deleteUser } from "./userSlice";
 
@@ -36,27 +37,17 @@ const UserList = () => {
         )
     }
 
-
     // Error state reflects the error message when users API request is rejected, indicating a fetching error.
     if (error) {
         content = (
             <div className="flex flex-col items-center gap-2 justify-center pt-20">
+              <p className="text-red-700 text-5xl"><BiError /></p>
                 <p className="text-red-700 text-xl font-semibold">{error}</p>
                 <span className="text-gray-500 text-md  "> Please check the API.</span>
             </div>
         )
     }
 
-
-    // If API request is fulfilled but response status is 404, "No Users Found" message is set for empty data display.
-    if (users?.noUsers) {
-        content = (
-            <div className="flex flex-col items-center gap-2 justify-center pt-20">
-                <p className="text-red-700 text-2xl font-bold" >{users?.noUsers}</p>
-                <span className="text-gray-500 text-lg  "> Please check the API.</span>
-            </div>
-        )
-    }
 
     /* When users API request is successful, this code renders user data as cards, 
     displaying name, email, and phone number in an appealing format.*/
