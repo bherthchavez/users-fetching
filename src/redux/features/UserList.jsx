@@ -24,7 +24,6 @@ const UserList = () => {
         dispatch(deleteUser({ id }))
     }
 
-    console.log(users.length, loading)
     let content;
 
     // Loading state becomes true during pending user data fetching, indicating ongoing progress.
