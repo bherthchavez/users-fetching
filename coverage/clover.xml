@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686475579495" clover="3.2.0">
-  <project timestamp="1686475579495" name="All files">
+<coverage generated="1686477205693" clover="3.2.0">
+  <project timestamp="1686477205693" name="All files">
     <metrics statements="66" coveredstatements="40" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="0" elements="73" coveredelements="44" complexity="0" loc="66" ncloc="66" packages="1" files="1" classes="1"/>
     <file name="userSlice.js" path="C:\Users\bherth\Documents\My Web Project\technical-test\users-fetching\src\redux\features\userSlice.js">
       <metrics statements="66" coveredstatements="40" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="0"/>
