@@ -1,12 +1,10 @@
 #  [Fetching User List with Redux](https://users-fetching-redux.netlify.app/)
-<<<<<<< HEAD
+React.js application built with Vite, Redux, and Vitest for unit testing.
+
 
 [![App](./src/assets/app.PNG)](https://users-fetching-redux.netlify.app/)
 
 
-=======
->>>>>>> 17bf705be02ff779e3765a04a0e9bf16e87e7000
-React.js application built with Vite, Redux, and Vitest for unit testing.
 
 ## Installation
 To install the dependencies, run the following command:
