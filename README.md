@@ -1,5 +1,5 @@
 #  [Fetching User List with Redux](https://users-fetching-redux.netlify.app/)
-React.js application built with Vite, Redux, and Vitest for unit testing.
+React.js application built with Vite, Redux, Tailwind and Vitest for unit testing.
 
 
 [![App](./src/assets/app.PNG)](https://users-fetching-redux.netlify.app/)
