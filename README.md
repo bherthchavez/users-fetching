@@ -1,6 +1,5 @@
 #  [Fetching User List with Redux](https://users-fetching-redux.netlify.app/)
-React.js Application with Vite, Redux, and Vitest
-This is a sample README file for a React.js application built with Vite, Redux, and Vitest for unit testing.
+React.js application built with Vite, Redux, and Vitest for unit testing.
 
 ## Installation
 To install the dependencies, run the following command:
@@ -19,5 +18,15 @@ This will start the development server using Vite and compile the React.js appli
 ## Running Unit Tests
 To run the unit tests using Vitest, execute the following command:
 
+
+## Running Unit Tests
+To run the unit tests using Vitest, execute the following command:
+
 ### `npm run test`
-This command will trigger the unit test runner and execute all the unit tests in your application. The test results will be displayed in the console.
+This command will trigger the unit test runner and execute all the unit tests. The test results will be displayed in the console.
+
+The unit tests cover the following scenarios:
+
+Fulfilled when users are fetched successfully
+Rejected when an error occurs during user fetch
+Dispatching deleteUser with the provided userId
